@@ -17,7 +17,30 @@ $(function(){
   });
 });
 
-// トップボタン
+
+
+
+//  以下修正箇所
+const newsBtn = document.querySelector(".news-btn");
+const hiddenNews = document.querySelector(".news-hidden");
+
+newsBtn.addEventListener("click", function(){
+
+    hiddenNews.classList.toggle("open");
+
+    if(hiddenNews.classList.contains("open")){
+
+        newsBtn.textContent = "▲ 閉じる";
+
+    }else{
+
+        newsBtn.textContent = "▼ すべてのお知らせを見る";
+
+    }
+
+});
+
+// トップボタン できない、、、、
 const pageTopBtn = document.querySelector('.page-top');
 const footer = document.querySelector('#footer');
 

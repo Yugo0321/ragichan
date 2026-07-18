@@ -86,6 +86,20 @@ header {
   border-left: 1px solid #000;
   */
 }
+
+/* 修正箇所 */
+.news-btn{
+  margin : 0 auto;
+}
+.news-hidden{
+    display:none;
+}
+.news-hidden.open{
+    display:block;
+}
+/* 修正箇所 */
+
+
 /* top_content_area_02 */
 /* 詳しく見るリンク色 */
 .top_content_area_02 .photo_01 a {

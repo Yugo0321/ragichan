@@ -2,16 +2,16 @@
 <html id="top" lang="ja">
 
 <head prefix="og: //ogp.me/ns# fb: //ogp.me/ns/fb# article: //ogp.me/ns/article#">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KQ6X07X0JS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KQ6X07X0JS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-KQ6X07X0JS');
-  gtag('config', 'UA-249846251-1');
-</script>
+    gtag('config', 'G-KQ6X07X0JS');
+    gtag('config', 'UA-249846251-1');
+  </script>
 
   <meta charset="UTF-8">
   <title>合同会社Rice West Entertainment | 札幌市内にラーメン店を4店舗展開</title>
@@ -37,17 +37,17 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
   <script type="text/javascript" src="./js/sp_nav.js"></script>
-  
+
   <script type="text/javascript" src="./js/copy_url.js"></script>
 
   <!--SP用ヘッダースクロール背景色追加-->
   <script>
     $(window).scroll(function () {
-    if($(window).scrollTop() > 20) {
-      $('#header_bg').addClass('bg_black');
-    } else {
-      $('#header_bg').removeClass('bg_black');
-    }
+      if ($(window).scrollTop() > 20) {
+        $('#header_bg').addClass('bg_black');
+      } else {
+        $('#header_bg').removeClass('bg_black');
+      }
     });
   </script>
 
@@ -55,7 +55,7 @@
 
 <body id="toppage">
   <!-- ワードプレス読み込み -->
-  
+
   <div class="content_wrap">
     <header>
       <div class="mv-container">
@@ -189,18 +189,29 @@
           <div class="news_area">
             <div class="news_head">お知らせ</div>
             <div class="news_text">
-                           
-                                  <div class="news_list">
-                      <dl>
-                        <dt>2022/11/17</dt>
-                        <dd><a href="https://teineramen.com/blog/news/1/" class="img_link">「合同会社Rice West Enterta…</a></dd>
-                      </dl>
-                  </div>
-                
-                        </div>
+
+              <div class="news_list">
+                <dl>
+                  <dt>2022/11/17</dt>
+                  <dd><a href="https://teineramen.com/blog/news/1/" class="img_link">「合同会社Rice West Enterta…</a></dd><br>
+                  <div class="news-hidden">
+                  <dt>0000/00/00</dt>
+                  <dd><a href="#">XXXXXXXXXX</a></dd><br>
+                  <dt>0000/00/00</dt>
+                  <dd><a href="#">XXXXXXXXXX</a></dd><br>
+                  <dt>0000/00/00</dt>
+                  <dd><a href="#">XXXXXXXXXX</a></dd><br>
+                  <dd><a href="#"></a></dd>
+                </dl>
+                </div>
+              </div>
+
+            </div>
+      
 
             <div class="news_link">
-              <a href="./blog/category/news/" class="img_link">すべてのお知らせを見る ＞</a>
+              <button class="news-btn">▼ すべてのお知らせを見る</button>
+              <!-- <a href="./blog/category/news/" class="img_link">すべてのお知らせを見る ＞</a> -->
             </div>
           </div>
         </div>
@@ -231,7 +242,8 @@
           <div>
             <a href="./menu.html" class="link animate-background">
               <div class="item-wrap">
-                <div class="image" style="background:url(./img/top_menu_bg.jpg) no-repeat center center; background-size:cover;">
+                <div class="image"
+                  style="background:url(./img/top_menu_bg.jpg) no-repeat center center; background-size:cover;">
                   <h2 class="ming">メニュー<br /></h2>
                 </div>
               </div>
@@ -239,26 +251,27 @@
           </div>
         </div>
         <div class="link_r_box">
-            <div>
-              <!-- 予約なし時コメントアウト-->
-              <!-- <a href="./contact.html" class="link animate-background">
+          <div>
+            <!-- 予約なし時コメントアウト-->
+            <!-- <a href="./contact.html" class="link animate-background">
                 <div class="item-wrap">
                   <div class="image" style="background:url(./img/top_yoyaku_bg.jpg) no-repeat center center; background-size:cover;">
                     <h2 class="ming">ご予約<br /></h2>
                   </div>
                 </div>
               </a>-->
-              <!-- 予約なし時コメントアウト　end-->
-              <a href="./shop_list.html" class="link animate-background">
-                <div class="item-wrap">
-                  <div class="image" style="background:url(./img/top_tenpo_bg.jpg) no-repeat center center; background-size:cover;">
-                    <h2 class="ming">店舗情報<br /></h2>
-                  </div>
+            <!-- 予約なし時コメントアウト　end-->
+            <a href="./shop_list.html" class="link animate-background">
+              <div class="item-wrap">
+                <div class="image"
+                  style="background:url(./img/top_tenpo_bg.jpg) no-repeat center center; background-size:cover;">
+                  <h2 class="ming">店舗情報<br /></h2>
                 </div>
-              </a>
-            </div>
-            <div></div>
+              </div>
+            </a>
           </div>
+          <div></div>
+        </div>
       </section>
 
 
@@ -284,11 +297,13 @@
 
       <section class="accese pv">
         <h2 class="video center">店舗PV</h2>
-          <div class="inner">
-            <div class="gmap center">
-              <video controls playsinline muted poster="./img/thumbnail.jpg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="./video/523579950633582819OmJV5gXX.mp4" autoplay></video>
-            </div>
+        <div class="inner">
+          <div class="gmap center">
+            <video controls playsinline muted poster="./img/thumbnail.jpg" width="600" height="450" style="border:0;"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              src="./video/523579950633582819OmJV5gXX.mp4" autoplay></video>
           </div>
+        </div>
       </section>
 
 
@@ -300,17 +315,20 @@
 
         <div class="inner">
           <div class="gmap center">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2911.8046456427373!2d141.24504245115722!3d43.12962989404344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b27aad2ce6831%3A0x79e4c78bc2864531!2z44CSMDA2LTA4MTYg5YyX5rW36YGT5pyt5bmM5biC5omL56iy5Yy65YmN55Sw77yW5p2h77yR77yU5LiB55uu77yR4oiS77yT!5e0!3m2!1sja!2sjp!4v1658900074423!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2911.8046456427373!2d141.24504245115722!3d43.12962989404344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b27aad2ce6831%3A0x79e4c78bc2864531!2z44CSMDA2LTA4MTYg5YyX5rW36YGT5pyt5bmM5biC5omL56iy5Yy65YmN55Sw77yW5p2h77yR77yU5LiB55uu77yR4oiS77yT!5e0!3m2!1sja!2sjp!4v1658900074423!5m2!1sja!2sjp"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
 
           <div class="store_information">
             <div class="info">
               <h3>企業情報</h3>
-                <p>社名：合同会社Rice West Entertainment</p>
-                <p>住所：〒006-0816　北海道札幌市手稲区前田6条14-1-3</p>
-                <p>電話：011-676-7723</p>
-                <p>アクセス：JR函館本線（小樽-旭川）手稲駅北口 徒歩19分<br>下手稲通沿いのスーパーセンタートライアル手稲店の斜め向かい</p>
-                <!--
+              <p>社名：合同会社Rice West Entertainment</p>
+              <p>住所：〒006-0816　北海道札幌市手稲区前田6条14-1-3</p>
+              <p>電話：011-676-7723</p>
+              <p>アクセス：JR函館本線（小樽-旭川）手稲駅北口 徒歩19分<br>下手稲通沿いのスーパーセンタートライアル手稲店の斜め向かい</p>
+              <!--
                 <p>営業時間：18:00～24:00（L.O.23:30）　定休日-不定休</p>
                 <p>クレジットカード：可</p>
                 -->
@@ -321,9 +339,13 @@
             </div>
             <div class="sns">
               <div class="pc">
-                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fteine29tama&tabs=timeline&width=300&height=350&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                <iframe
+                  src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fteine29tama&tabs=timeline&width=300&height=350&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                  width="300" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                  allowfullscreen="true"
+                  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
               </div>
-              
+
               <!--<div class="line">
                 <img src="img/line_icon.png" alt="LINE" />
                 <p>LINEで<br />お得な情報配信中！<br /><span>@natsunoutage</span></p>
@@ -361,23 +383,23 @@
             <div class="shop_li_wrap">
               <div class="shop_li">
                 <a href="shop_single_01.html">
-                <img class="shop_img" src="./img/shoplist_01_new.jpg" alt="" />
-                <div class="shop_name">
-                  <!-- <img src="./img/shoplist_logo_01.png" alt="" />-->
-                  <h3 class="gothic">魚豚中華そば・ラギ⭐︎一番</h3>
-                </div>
-                <p class="txt">〒006-0816<br />北海道札幌市手稲区前田6条14-1-3<br />011-676-7723</p>
+                  <img class="shop_img" src="./img/shoplist_01_new.jpg" alt="" />
+                  <div class="shop_name">
+                    <!-- <img src="./img/shoplist_logo_01.png" alt="" />-->
+                    <h3 class="gothic">魚豚中華そば・ラギ⭐︎一番</h3>
+                  </div>
+                  <p class="txt">〒006-0816<br />北海道札幌市手稲区前田6条14-1-3<br />011-676-7723</p>
                 </a>
               </div>
 
               <div class="shop_li">
                 <a href="shop_single_02.html">
-                <img class="shop_img" src="./img/shoplist_02.jpg" alt="" />
-                <div class="shop_name">
-                  <!-- <img src="./img/shoplist_logo_01.png" alt="" />-->
-                  <h3 class="gothic">ラギちゃんラーメン 北21条店</h3>
-                </div>
-                <p class="txt">〒001-0021<br />北海道札幌市北区北21条西4-2-7<br />011-374-8360</p>
+                  <img class="shop_img" src="./img/shoplist_02.jpg" alt="" />
+                  <div class="shop_name">
+                    <!-- <img src="./img/shoplist_logo_01.png" alt="" />-->
+                    <h3 class="gothic">ラギちゃんラーメン 北21条店</h3>
+                  </div>
+                  <p class="txt">〒001-0021<br />北海道札幌市北区北21条西4-2-7<br />011-374-8360</p>
                 </a>
               </div>
 
@@ -394,12 +416,12 @@
 
               <div class="shop_li">
                 <a href="shop_single_04.html">
-                <img class="shop_img" src="./img/shoplist_04.jpg" alt="" />
-                <div class="shop_name">
-                  <!-- <img src="./img/shoplist_logo_01.png" alt="" />-->
-                  <h3 class="gothic">ラーメン296</h3>
-                </div>
-                <p class="txt">〒004-0843<br />北海道札幌市清田区清田3条1-4-13<br />011-398-3428</p>
+                  <img class="shop_img" src="./img/shoplist_04.jpg" alt="" />
+                  <div class="shop_name">
+                    <!-- <img src="./img/shoplist_logo_01.png" alt="" />-->
+                    <h3 class="gothic">ラーメン296</h3>
+                  </div>
+                  <p class="txt">〒004-0843<br />北海道札幌市清田区清田3条1-4-13<br />011-398-3428</p>
                 </a>
               </div>
 
@@ -416,12 +438,12 @@
 
               <div class="shop_li">
                 <a href="shop_single_06.html">
-                <img class="shop_img" src="./img/shoplist_06.jpg" alt="" />
-                <div class="shop_name">
-                  <!-- <img src="./img/shoplist_logo_01.png" alt="" /> -->
-                  <h3 class="gothic">本気味噌ラーメン 肉玉ジョー</h3>
-                </div>
-                <p class="txt">〒063-0811<br />札幌市西区琴似1条1丁目5玉福ビル1階<br /></p>
+                  <img class="shop_img" src="./img/shoplist_06.jpg" alt="" />
+                  <div class="shop_name">
+                    <!-- <img src="./img/shoplist_logo_01.png" alt="" /> -->
+                    <h3 class="gothic">本気味噌ラーメン 肉玉ジョー</h3>
+                  </div>
+                  <p class="txt">〒063-0811<br />札幌市西区琴似1条1丁目5玉福ビル1階<br /></p>
                 </a>
               </div>
 
@@ -440,7 +462,7 @@
           <div class="logo-menu center">
             <a href="./index.php"><img src="./img/logo.png" class="footer-logo" /></a>
 
-            
+
             <!--<div class="sns_icon">
               <ul>
                 <li><a href="https://www.facebook.com/teine29tama" target="_blank"><img src="./img/sns-01.png" alt="facebook"></a></li>
@@ -473,7 +495,10 @@
 
           <div class="copyright">
             <p><a href="./privacypolicy.html">プライバシーポリシー</a></p>
-            <p>Copyright &copy;<script type="text/javascript">document.write(new Date().getFullYear());</script> Rice West Entertainment, All Rights Reserved.</p>
+            <p>Copyright &copy;
+              <script type="text/javascript">document.write(new Date().getFullYear());</script> Rice West Entertainment,
+              All Rights Reserved.
+            </p>
           </div>
 
 
@@ -481,12 +506,13 @@
 
       </div>
       <!-- トップボタン -->
-  <button class="page-top"><img src="img/toppage.png" alt="トップページ"></button>
+      <button class="page-top"><img src="img/toppage.png" alt="トップページ"></button>
 
     </footer>
 
     <!--Swiper-->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="./js/init.js"></script>
     <!--Swiper end-->
